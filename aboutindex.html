@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="mission">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="revised" content="23/10/23">
+    <title>My Website</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #cfe8f3;
+            overflow-x: hidden;
+        }
+
+        nav {
+            background-color: rgb(173, 216, 230);
+            color: #001f3f;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 3px solid #000;
+        }
+
+        #logo {
+            max-width: 50px;
+            max-height: 50px;
+            border-radius: 50%;
+            border: 2px solid #000;
+        }
+
+        #title {
+            color: #0c5472;
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+        }
+
+        #nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #0c5472;
+            margin: 0 15px;
+            padding: 10px;
+            border: 1px solid #0c5472;
+            border-radius: 5px;
+            font-weight: bold;
+            font-family: 'Times New Roman', serif;
+        }
+
+        .nav-link:hover {
+            background-color: #001f3f;
+            color: white;
+        }
+
+        #content {
+            margin: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        #picture {
+            max-width: 200px;
+            border-radius: 10px;
+            margin-right: 20px;
+            outline: 3px solid #0c5472;
+        }
+
+        #text {
+            flex: 1;
+        }
+
+        #text h2 {
+            margin: 0;
+            margin-bottom: 0;
+        }
+
+        p {
+            text-align: left;
+            display: flex;
+            justify-content: left;
+        }
+
+        #matt {
+            width: 60%;
+            margin: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        #picmatt {
+            max-width: 300px;
+            border-radius: 10px;
+            margin-right: 20px;
+            outline: 3px solid #0c5472;
+        }
+
+        #infos {
+            flex: 1;
+        }
+
+        #infos p {
+            text-align: left;
+            display: flex;
+            justify-content: left;
+        }
+
+        #ey {
+            height: 20px;
+        }
+
+        #buttonz {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .buttonzz {
+            padding: 10px;
+            border: 1px solid #0c5472;
+            border-radius: 5px;
+            font-weight: bold;
+            font-family: 'Times New Roman', serif;
+            text-decoration: none;
+			margin-left:20px;
+			margin-right: 20px;
+        }
+
+        .buttonzz:hover {
+            background-color: #001f3f;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <img id="logo" src="logonimatt.png" alt="Logo">
+        </div>
+        <div id="title">
+            <h1>Mission's Top 5 Favorite Singers and Favorite Songs</h1>
+        </div>
+        <div id="nav-links">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="aboutindex.html">Top Favorites</a>
+            <a class="nav-link" href="#">More</a>
+        </div>
+    </nav>
+
+    <div id="content">
+        <img id="picture" src="https://qph.cf2.quoracdn.net/main-qimg-68b0e1c462d7c890300f334ca7d68b86-pjlq" alt="Square Picture">
+        <div id="text">
+            <h2>What's with my MUSIC TASTE?</h2>
+            <p>Throughout my music taste, I appreciate different styles and sounds from a variety of genres and artists.</p>
+            <p>I'm constantly on the hunt for new music and have a collection of thousands of songs. I'm always looking for something new and often find hidden gems in unexpected places. Music is an essential part of my life and I'm never short of something to listen to.</p>
+        </div>
+    </div>
+
+    <div id="ey"></div>
+
+    <div id="matt">
+        <img id="picmatt" src="bcvscvxv (2).jpg" alt="Picture:)">
+        <div id="infos">
+            <h1 id="mytop5">My Top 5 Favorite Singers!</h1>
+            <p>Get to know who are my favorite singers, each of whom brings a unique flavor to my music collection!</p>
+            <p>Click Next to begin!</p>
+        </div>
+    </div>
+
+    <div id="buttonz">
+        <a class="buttonzz" href="index.html">Go back to 'Home'</a>
+        <div class="buttonzz">Next</div>
+    </div>
+</body>
+
+</html>

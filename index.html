@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="mission">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="revised" content="23/10/23">
+    <title>My Website</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #cfe8f3;
+            overflow-x: hidden;
+        }
+
+        nav {
+            background-color: rgb(173, 216, 230);
+            color: #001f3f;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 3px solid #000;
+        }
+
+        #logo {
+            max-width: 50px;
+            max-height: 50px;
+            border-radius: 50%;
+            border: 2px solid #000;
+        }
+
+        #title {
+            color: #0c5472;
+            font-family: 'Times New Roman', serif;
+            margin: 0;
+        }
+
+        #linkz {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #0c5472;
+            margin: 0 15px;
+            padding: 10px;
+            border: 1px solid #0c5472;
+            border-radius: 5px;
+            font-weight: bold;
+            font-family: 'Times New Roman', serif;
+        }
+
+        .nav-link:hover {
+            background-color: #001f3f;
+            color: white;
+        }
+
+        #content {
+            margin: 20px;
+            position: relative;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        img {
+            max-width: 80%;
+            border-radius: 10px;
+            display: block;
+            margin: 10px auto;
+            outline: 3px solid #0c5472;
+        }
+
+        .wannaknow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0.9);
+            border: 2px solid #0c5472;
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            max-width: 80%;
+            box-sizing: border-box;
+        }
+
+        .getbutton {
+            background-color: rgba(173, 216, 230, 0.7);
+            color: black;
+            padding: 5px 10px; /* Adjusted padding for better appearance */
+            border: solid;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            text-decoration: none;
+            font-family: 'Times New Roman', serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div>
+            <img id="logo" src="logonimatt.png" alt="Logo">
+        </div>
+        <div id="title">
+            <h1>Mission's Top 5 Favorite Singers and Favorite Songs</h1>
+        </div>
+        <div id="linkz">
+            <a class="nav-link" href="newhomematt.html">Home</a>
+            <a class="nav-link" href="aboutindex.html">Top Favorites</a>
+            <a class="nav-link" href="#">More</a>
+        </div>
+    </nav>
+
+    <div id="content">
+        <p>Listening to music is one of my favorite things to do. Music conveys and evokes a variety of feelings. Music is an entertainment that can be enjoyed in a variety of contexts. Global audiences are now able to enjoy music more easily because of the internet. Anybody who has an internet connection can listen to music from anywhere in the world. This allows people to mix and match many different genres and styles.</p>
+
+        <img src="bcvscvxv (2).jpg" alt="fav">
+
+        <div class="wannaknow">
+            <p>Wanna know if we are similar when it comes to music? Find out if your music taste is similar to mine with my Top 5 Favorites by hitting the 'Get Started' button!</p>
+            <a href="aboutindex.html" class="getbutton">
+                Get Started!
+            </a>
+        </div>
+    </div>
+
+</body>
+
+</html>
